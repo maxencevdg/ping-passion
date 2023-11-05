@@ -1,0 +1,62 @@
+.grid-container {
+	margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border: 2px solid #446084;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.card img {
+	max-width: 100%;
+}
+  
+.card h2 {
+	color: #446084;
+    text-align: center;
+}
+
+.card-content {
+	text-align: center;
+}
+
+.card hr {
+	border: 0;
+    height: 2px;
+	background-color: #446084;
+	border-radius: 5px;
+}
+
+.en-savoir-plus {
+	width: 30%;
+	text-align: center;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #446084;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	transition: background-color 0.3s;
+}
+
+.en-savoir-plus:hover {
+	background-color: #2980b9;
+}
+
+@media screen and (max-width: 768px) {
+	.grid-container {
+		grid-template-columns: 1fr;
+	}
+}
+

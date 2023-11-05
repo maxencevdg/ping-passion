@@ -1,0 +1,77 @@
+/* Page produit */
+.product-content-revetements {
+    margin: 50px auto 150px auto;
+    max-width: 800px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-details-revetements {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-image-detail-revetements {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.product-image-detail-revetements img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-info-revetements {
+    flex: 1;
+}
+
+.product-info-revetements h2 {
+    font-size: 24px;
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.entry-content-detail-revetements {
+    clear: both;
+}
+
+
+/* caracteristiques */
+.caracteristique-revetements {
+    margin-top: 20px;
+}
+
+.tableau-revetements {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.tableau-revetements h3 {
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+
+.tableau-revetements span {
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.553);
+}
+
+.tableau-revetements ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.tableau-revetements li {
+    background-color: #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+

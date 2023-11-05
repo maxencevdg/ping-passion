@@ -1,0 +1,54 @@
+/* Page produit */
+.product-content-bois {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-details-bois {
+    margin: 50px 0 150px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-image-detail-bois {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.product-image-detail-bois img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-info-bois {
+    max-width: 800px;
+    flex: 1;
+}
+
+.product-info-bois h2 {
+    font-size: 24px;
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.entry-content-detail-bois {
+    flex: 1; /* Adjust flex value */
+}
+
+/* Hide characteristics section */
+.caracteristique-bois {
+    display: none;
+}
+
+.tableau-bois {
+    display: none;
+}
+
+/* Hide the list in "Épaisseur" section */
+.tableau-bois ul {
+    display: none;
+}

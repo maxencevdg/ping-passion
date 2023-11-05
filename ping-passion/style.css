@@ -1,0 +1,182 @@
+/*!
+Theme Name: ping passion
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: ping-passion
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+ping passion is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic
+	- Normalize
+	- Box sizing
+# Base
+	- Typography
+	- Elements
+	- Links
+	- Forms
+## Layouts
+# Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Widgets
+	- Media
+	- Captions
+	- Galleries
+# plugins
+	- Jetpack infinite scroll
+# Utilities
+	- Accessibility
+	- Alignments
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+
+/* Normalize
+--------------------------------------------- */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ @import url(css/archive-bois.css);
+ @import url(css/archive-revetements.css);
+ @import url(css/single-bois.css);
+ @import url(css/single-revetements.css);
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #cccccc97;
+}
+
+/* header */
+.site-header {
+    background-color: #446084;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.page-title h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.main-navigation {
+    text-align: center;
+}
+
+
+.site-branding {
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+}
+
+/* navbar */
+.menu-header-container {
+	display: flex;
+	align-items: center;
+	background-color: #446084;
+    text-align: center;
+}
+
+.custom-logo-link img {
+	width: 70px;
+	height: auto;
+	float: left;
+	border-radius: 100px;
+}
+
+.menu-header-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-header-container li {
+    margin-right: 20px;
+}
+
+.menu-header-container a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu-header-container a:hover {
+    color: #ccc;
+}
+
+
+/* footer */
+.site-footer {
+    background-color: #446084;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.site-footer p {
+    margin: 5px 0;
+}
+
+
+
+/* page.php */
+.wp-block-image figure {
+	object-fit: fill;
+}
+
+.entry-content {
+	width: 1024px;
+	margin: 50px auto 50px auto;
+}
+
+.wp-block-quote {
+	width: 50%;
+	padding: 5px 20px 15px 20px;
+	border-radius: 10px;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
